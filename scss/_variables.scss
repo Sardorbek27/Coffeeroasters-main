@@ -1,0 +1,11 @@
+@mixin display(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin navbar-color(){
+    color:  #83888F;
+}
+@mixin color($chage-color: #FEFCF7){
+    color: $chage-color;
+}

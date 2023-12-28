@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  ::selection{
+    color: #fff;
+    background-color: #31b1ac;
+  }
+  body{
+    font-family: 'Fraunces', serif;
+    font-family: 'Barlow', sans-serif;
+    background-color: #fefcf7;
+  }

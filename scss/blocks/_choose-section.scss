@@ -1,0 +1,109 @@
+.choose-section{
+    padding-bottom: 350px;
+}
+.choose{
+    padding: 100px 0 0 0;
+    height: 600px;
+    border-radius: 10px;
+    background: #2C343E;
+}
+.choose__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choose__title{
+    margin-bottom: 32px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+}
+.choose__text-wrapper{
+    width: 540px;
+}
+.choose__text{
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    opacity: 0.8;
+}
+.choose__list{
+    margin-top: 86px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose__item{
+    width: 350px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0 48px;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #0E8784;
+}
+.choose__item:hover{
+    border-radius: 8px;
+    background: #F4F1EB;
+}
+.choose__item:active{
+    border-radius: 8px;
+    background: #0E8784;
+}
+.choose__strong{
+    margin-top: 95px;
+    margin-bottom: 24px;
+    color: #F4F1EB;
+    text-align: center;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+}
+.choose__item:hover>.choose__strong{
+    color: #333D4B;
+}
+.choose__item-text{
+    width: 255px;
+    color:#F4F1EB;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.choose__item:hover>.choose__item-text{
+    color: #333D4B;
+}
+@media only screen and (width:800px) {
+    .choose{
+        width: 100%;
+    }
+    .choose__list{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .choose__item{
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media only screen and (width:630px) {
+    
+}
