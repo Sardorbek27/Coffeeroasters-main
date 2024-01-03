@@ -1,0 +1,29 @@
+.commit-section {
+    padding-bottom: 168px;
+}
+.commit {
+    padding: 0 0 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.commit__box {
+    width: 539px;
+}
+.commit__title {
+    margin-bottom: 32px;
+    color: #333D4B;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+}
+.commit__text {
+    color: #333D4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+.header__list {
+    display: flex;
+    align-items: center;
+}
+.header__item {
+    & + & {
+        margin-left: 33px;
+    }
+}
+.header__link {
+    color: #83888F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: color 0.5s linear;
+    
+    &:hover{
+        color: #333D4B;
+    }
+}
+.hamburger-btn{
+    display: none;
+}
